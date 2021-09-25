@@ -136,7 +136,7 @@ body {
 	font-size:15px;
 }
 
-a { color:#499DD0; }
+a { color:#0066ff; }
 a:hover { color:#ea6868; text-decoration:none; }
 
 .boldItalic { 
@@ -167,7 +167,7 @@ h3 {
 	letter-spacing:1px;
 }
 
-h3 span { font-family:Ubuntu Bold; color:#499DD0; }
+h3 span { font-family:Ubuntu Bold; color:#0066ff; }
 
 h4 {
 	font-family:Ubuntu Med, Helvetica, Arial;
@@ -219,7 +219,7 @@ h6 {
 	background-color:white; 
 	border-color:white;
 	text-decoration:none;
-	color:#499DD0;
+	color:#0066ff;
 }
 
 .button.grey {
@@ -232,9 +232,9 @@ h6 {
 }
 
 .button.grey.current, .button.grey:hover {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
-	border-color:#499DD0;
+	border-color:#0066ff;
 	text-decoration:none;
 }
 
@@ -248,15 +248,15 @@ h6 {
 	border:none;
 }
 
-.button.smallGrey:hover { color:white; background-color:#499DD0; }
+.button.smallGrey:hover { color:white; background-color:#0066ff; }
 
 .button.red {
-	color:#499DD0;
-	border-color:#499DD0;
+	color:#0066ff;
+	border-color:#0066ff;
 }
 
 .button.red:hover {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
 }
 
@@ -369,7 +369,7 @@ header a { font-family:Ubuntu Bold; }
 
 .nav.navbar-nav li a:hover {
 	background-color:transparent;
-	color:#499DD0;
+	color:#0066ff;
 }
 
 .nav.navbar-nav .dropdown .dropdown-menu {
@@ -403,7 +403,7 @@ header a { font-family:Ubuntu Bold; }
 
 .nav.navbar-nav .dropdown .dropdown-menu .yamm-content a:hover {
 	background:transparent;
-	color:#499DD0;
+	color:#0066ff;
 }
 
 .yamm-content {
@@ -445,8 +445,8 @@ header a { font-family:Ubuntu Bold; }
     }
 
 .nav.navbar-nav .current { 
-	color:#499DD0; 
-	/* box-shadow: inset 0 4px 0px #499DD0; */
+	color:#0066ff; 
+	/* box-shadow: inset 0 4px 0px #0066ff; */
 }
 
 /** SEARCH **/
@@ -525,7 +525,7 @@ header a { font-family:Ubuntu Bold; }
 	margin-top:90px;
 	/* background-image: url('../images/subHeaderBg_red.jpg'); */
 	/* background-image: linear-gradient(to right top, #107cbec9, #4098cfc0, #3795cfc0, #2c90cec4, #97999bbd),url('../images/media/back.jpg'); */
-	background-image: linear-gradient(to right top, #328ac0, #2e8bc3, #2a8bc6, #258cca, #208ccd);
+	background-image: linear-gradient(to right top, #3366cc, #3467ce, #3568cf, #366ad1, #376bd3);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -534,7 +534,7 @@ header a { font-family:Ubuntu Bold; }
 }
 
 .leftBlock {
-	background-image: linear-gradient(to right top, #1b282f, #212e35, #28353b, #2e3b42, #354248);
+	background-image: linear-gradient(to right top, #87837c, #7e7b75, #76746e, #6e6c68, #666561);
 	display:block;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -614,7 +614,7 @@ header a { font-family:Ubuntu Bold; }
 .subHeader.classic h1 span {
 	font-family:Proxima Nova Semi-bold;
 	font-size:30px;
-	color:#499DD0;
+	color:#0066ff;
 	font-style:italic;
 	margin-left:20px;
 }
@@ -648,7 +648,7 @@ header a { font-family:Ubuntu Bold; }
 /* 05.1 PORTFOLIO GENERAL */
 /*====================================*/
 .overlay {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	opacity:0.9;
 	display:block;
 	width:100%;
@@ -828,7 +828,7 @@ header a { font-family:Ubuntu Bold; }
 .bar {
 	float:left;
 	height:25px;
-	background-color:#499DD0;
+	background-color:#0066ff;
 }
 
 .bar.full { width:83.7%; }
@@ -882,12 +882,12 @@ header a { font-family:Ubuntu Bold; }
 	text-align:center;
 }
 
-.aboutTeam h4 { color:#499DD0; }
+.aboutTeam h4 { color:#0066ff; }
 .aboutTeam h4 span { font-family:Proxima Nova Light; }
 .aboutTeam img { margin-bottom:30px; max-width:100%;}
 .aboutTeam .socialIcons { margin:0 auto; float:none;}
 
-.skills { padding:80px 0px 80px 0px; background-color:#499DD0; }
+.skills { padding:80px 0px 80px 0px; background-color:#0066ff; }
 .skills p { float:left; color:white; font-size:21px; margin-top:-105px;}
 .skillDivider {margin-top:-200px; margin-left:100px; }
 .skills h4 {color:white; margin-top:10px;}
@@ -953,7 +953,7 @@ header a { font-family:Ubuntu Bold; }
 .thumbBar {
 	width:100%;
 	height:8px;
-	background-color:#499DD0;
+	background-color:#0066ff;
 }
 
 .triangle {
@@ -961,18 +961,18 @@ header a { font-family:Ubuntu Bold; }
 	height: 0; 
 	border-left: 12px solid transparent;
 	border-right: 12px solid transparent;
-	border-top: 12px solid #499DD0;
+	border-top: 12px solid #0066ff;
 	margin:0 auto;
 }
 
 .button.blog {
-	color:#499DD0;
-	border-color:#499DD0;
+	color:#0066ff;
+	border-color:#0066ff;
 	padding:8px 20px 8px 20px;
 }
 
 .button.blog:hover {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
 }
 
@@ -1034,7 +1034,7 @@ header a { font-family:Ubuntu Bold; }
 	font-size:12px;
 	float:left; 
 	padding:3px 7px 3px 7px; 
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
 	border-radius:3px;
 	margin-right:8px;
@@ -1056,7 +1056,7 @@ header a { font-family:Ubuntu Bold; }
 
 .blogCreative { padding:20px 0px 80px 0px; }
 .blogCreative h4 a { font-size:28px; color:white; }
-.blogCreative h4 a:hover { color:#499DD0; }
+.blogCreative h4 a:hover { color:#0066ff; }
 
 .blogPostCreative { float:left; width:292px; margin-top:30px; }
 .blogPostCreative.wide { width:584px; }
@@ -1064,7 +1064,7 @@ header a { font-family:Ubuntu Bold; }
 .date {
 	margin-top:-65px;
 	padding:10px 0px 10px 0px;
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
 	text-align:center;
 	width:70px;
@@ -1121,7 +1121,7 @@ header a { font-family:Ubuntu Bold; }
 
 .videoPost { margin-bottom:-6px; width:100%; height:200px; }
 .quotePost { 
-	background-color:#499DD0; 
+	background-color:#0066ff; 
 	padding:14px 0px 41px 0px; 
 	display:block; 
 	color:white;
@@ -1151,7 +1151,7 @@ header a { font-family:Ubuntu Bold; }
 	color:#a5a5a5;
 	font-size:18px;
 	border-left-style:solid;
-	border-left-color:#499DD0;
+	border-left-color:#0066ff;
 }
 
 .comment.reply {
@@ -1163,7 +1163,7 @@ header a { font-family:Ubuntu Bold; }
 	border-width:1px;
 	border-radius:3px;
 	border-color:#cdcdcd;
-	border-left-color:#499DD0;
+	border-left-color:#0066ff;
 	border-left-width:4px;
 	padding:20px;
 	float:left;
@@ -1175,7 +1175,7 @@ header a { font-family:Ubuntu Bold; }
 	height: 0; 
 	border-top: 8px solid transparent;
 	border-bottom: 8px solid transparent; 
-	border-right:8px solid #499DD0; 
+	border-right:8px solid #0066ff; 
 	float:left;
 	margin-left:-8px;
 	margin-top:40px;
@@ -1185,7 +1185,7 @@ header a { font-family:Ubuntu Bold; }
 
 .commentText h1 {
 	font-size:12px;
-	color:#499DD0;
+	color:#0066ff;
 }
 .commentText p { font-size:13px; }
 
@@ -1288,7 +1288,7 @@ header a { font-family:Ubuntu Bold; }
 	color:#a7a7a7; 
 }
 
-.accordianTab .accordianLink:hover { color:#499DD0; }
+.accordianTab .accordianLink:hover { color:#0066ff; }
 
 .accordianContent { display:none; padding:15px 20px 0px 20px; }
 
@@ -1313,11 +1313,11 @@ header a { font-family:Ubuntu Bold; }
 
 .error {
 	background-color:#f1d9d9;
-	border-color:#499DD0;
-	color:#499DD0;
+	border-color:#0066ff;
+	color:#0066ff;
 }
 
-.error h4 { color:#499DD0; }
+.error h4 { color:#0066ff; }
 
 .info {
 	background-color:#d9e7f1;
@@ -1340,7 +1340,7 @@ header a { font-family:Ubuntu Bold; }
 .pricingTable { text-align:center; }
 
 .pricingHeader {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	padding:11px 11px 1px 11px;
 }
 
@@ -1411,7 +1411,7 @@ header a { font-family:Ubuntu Bold; }
 .row.shopList { margin-top:80px; }
 
 .shopPrice {
-	color:#499DD0;
+	color:#0066ff;
 	font-size:21px;
 	margin-top:-7px;
 }
@@ -1435,7 +1435,7 @@ header a { font-family:Ubuntu Bold; }
 .shopImg { max-width:100%; }
 
 .button.smallGrey.sale {
-	background-color:#499DD0;
+	background-color:#0066ff;
 	color:white;
 	position:absolute;
 	margin-top:5px;
@@ -1443,7 +1443,7 @@ header a { font-family:Ubuntu Bold; }
 }
 
 .pageList li { display:inline; }
-.pageList li .current { background-color:#499DD0; color:white; }
+.pageList li .current { background-color:#0066ff; color:white; }
 
 .shopInput { width:44%; margin-bottom:15px; }
 .button.red.shopForm { width:30%; float:right; }
@@ -1458,7 +1458,7 @@ header a { font-family:Ubuntu Bold; }
 
 .shopReview h1 {
 	font-size:12px;
-	color:#499DD0;
+	color:#0066ff;
 }
 
 .reviewFooter {
@@ -1498,7 +1498,7 @@ header a { font-family:Ubuntu Bold; }
 
 .testimonials {
 	padding:90px 0px 85px 0px; 
-	background-color:#499DD0;
+	background-color:#0066ff;
 	background: url('../images/subHeaderBg_red.jpg');
 	background-attachment:fixed;
 	background-repeat:no-repeat;
@@ -1824,4 +1824,32 @@ footer h4 a { color:#87969e; margin-bottom:20px; }
 	font-size:18px;
 	padding: 0 50px;
 	margin: 12px
+}
+
+.button-blue {
+	/* margin-top:20px; */
+	background:transparent;
+	font-family:Ubuntu Bold;
+	color:#0066ff;
+	border-style:solid;
+	border-width:2px;
+	border-radius:4px;
+	padding:12px 40px 12px 40px;
+	display:inline-block;
+	-webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+.button-blue:hover { 
+	background-color:#0066ff; 
+	border-color:#0066ff;
+	text-decoration:none;
+	color:#fff;
+}
+
+.service-icon{
+	width: 85px;
 }
