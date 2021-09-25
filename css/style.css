@@ -1,3 +1,6 @@
+/* add font start  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* add font end */
 /* MAIN STYLESHEET             */
 /* Thrive - Creative Template  */
 /* Made By Rype Pixel          */
@@ -133,7 +136,7 @@ body {
 	font-size:15px;
 }
 
-a { color:#c44747; }
+a { color:#499DD0; }
 a:hover { color:#ea6868; text-decoration:none; }
 
 .boldItalic { 
@@ -164,7 +167,7 @@ h3 {
 	letter-spacing:1px;
 }
 
-h3 span { font-family:Ubuntu Bold; color:#c44747; }
+h3 span { font-family:Ubuntu Bold; color:#499DD0; }
 
 h4 {
 	font-family:Ubuntu Med, Helvetica, Arial;
@@ -216,7 +219,7 @@ h6 {
 	background-color:white; 
 	border-color:white;
 	text-decoration:none;
-	color:#c44747;
+	color:#499DD0;
 }
 
 .button.grey {
@@ -229,9 +232,9 @@ h6 {
 }
 
 .button.grey.current, .button.grey:hover {
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
-	border-color:#c44747;
+	border-color:#499DD0;
 	text-decoration:none;
 }
 
@@ -245,15 +248,15 @@ h6 {
 	border:none;
 }
 
-.button.smallGrey:hover { color:white; background-color:#c44747; }
+.button.smallGrey:hover { color:white; background-color:#499DD0; }
 
 .button.red {
-	color:#c44747;
-	border-color:#c44747;
+	color:#499DD0;
+	border-color:#499DD0;
 }
 
 .button.red:hover {
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
 }
 
@@ -347,14 +350,17 @@ header a { font-family:Ubuntu Bold; }
 	z-index:1000;
 }
 
-.navbar-brand img { margin-right:20px; }
+.navbar-brand img {
+	position: relative;
+    left: 24px;
+	}
 .navbar-brand { letter-spacing:2px; margin-top:8px; } 
 
-.nav.navbar-nav { float:right; }
+.nav.navbar-nav { float:right;    margin-top: 8px; }
 
 .nav.navbar-nav li a {
-	color:#a6a6a6;
-	font-size:12px;
+	color:#979292;
+	font-size:14px;
 	letter-spacing:2px;
 	padding-top:35px;
 	padding-bottom:35px;
@@ -363,7 +369,7 @@ header a { font-family:Ubuntu Bold; }
 
 .nav.navbar-nav li a:hover {
 	background-color:transparent;
-	color:#c44747;
+	color:#499DD0;
 }
 
 .nav.navbar-nav .dropdown .dropdown-menu {
@@ -397,7 +403,7 @@ header a { font-family:Ubuntu Bold; }
 
 .nav.navbar-nav .dropdown .dropdown-menu .yamm-content a:hover {
 	background:transparent;
-	color:#c44747;
+	color:#499DD0;
 }
 
 .yamm-content {
@@ -439,8 +445,8 @@ header a { font-family:Ubuntu Bold; }
     }
 
 .nav.navbar-nav .current { 
-	color:#c44747; 
-	box-shadow: inset 0 4px 0px #c44747;
+	color:#499DD0; 
+	/* box-shadow: inset 0 4px 0px #499DD0; */
 }
 
 /** SEARCH **/
@@ -517,7 +523,9 @@ header a { font-family:Ubuntu Bold; }
 /*====================================*/
 .subHeader.split {
 	margin-top:90px;
-	background-image: url('../images/subHeaderBg_red.jpg');
+	/* background-image: url('../images/subHeaderBg_red.jpg'); */
+	/* background-image: linear-gradient(to right top, #107cbec9, #4098cfc0, #3795cfc0, #2c90cec4, #97999bbd),url('../images/media/back.jpg'); */
+	background-image: linear-gradient(to right top, #328ac0, #2e8bc3, #2a8bc6, #258cca, #208ccd);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -526,19 +534,38 @@ header a { font-family:Ubuntu Bold; }
 }
 
 .leftBlock {
-	background-color:#1b282f;
+	background-image: linear-gradient(to right top, #1b282f, #212e35, #28353b, #2e3b42, #354248);
 	display:block;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	color:white;
+	height:575px;
 	padding:185px 0px 185px 105px;
 	float:left;
 	width:50%;
+	text-align:center;
 }
 
-.leftBlock h1 { color:white; }
-
-.leftBlock p {
-	font-size:32px;
-	letter-spacing:1px;
+.leftBlock h1 ,.rightBlock h1 { 
 	color:white;
+	font-size: 36px;
+ }
+.leftBlock h4 , .rightBlock h4 { 
+	padding-bottom: 13px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+	font-family: 'Lobster', cursive;
+ }
+
+.leftBlock p,  .rightBlock p {
+	font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    padding: 0 51px;
 }
 
 .rightBlock {
@@ -587,7 +614,7 @@ header a { font-family:Ubuntu Bold; }
 .subHeader.classic h1 span {
 	font-family:Proxima Nova Semi-bold;
 	font-size:30px;
-	color:#c44747;
+	color:#499DD0;
 	font-style:italic;
 	margin-left:20px;
 }
@@ -621,7 +648,7 @@ header a { font-family:Ubuntu Bold; }
 /* 05.1 PORTFOLIO GENERAL */
 /*====================================*/
 .overlay {
-	background-color:#c44747;
+	background-color:#499DD0;
 	opacity:0.9;
 	display:block;
 	width:100%;
@@ -801,7 +828,7 @@ header a { font-family:Ubuntu Bold; }
 .bar {
 	float:left;
 	height:25px;
-	background-color:#c44747;
+	background-color:#499DD0;
 }
 
 .bar.full { width:83.7%; }
@@ -855,12 +882,12 @@ header a { font-family:Ubuntu Bold; }
 	text-align:center;
 }
 
-.aboutTeam h4 { color:#c44747; }
+.aboutTeam h4 { color:#499DD0; }
 .aboutTeam h4 span { font-family:Proxima Nova Light; }
 .aboutTeam img { margin-bottom:30px; max-width:100%;}
 .aboutTeam .socialIcons { margin:0 auto; float:none;}
 
-.skills { padding:80px 0px 80px 0px; background-color:#c44747; }
+.skills { padding:80px 0px 80px 0px; background-color:#499DD0; }
 .skills p { float:left; color:white; font-size:21px; margin-top:-105px;}
 .skillDivider {margin-top:-200px; margin-left:100px; }
 .skills h4 {color:white; margin-top:10px;}
@@ -926,7 +953,7 @@ header a { font-family:Ubuntu Bold; }
 .thumbBar {
 	width:100%;
 	height:8px;
-	background-color:#c44747;
+	background-color:#499DD0;
 }
 
 .triangle {
@@ -934,18 +961,18 @@ header a { font-family:Ubuntu Bold; }
 	height: 0; 
 	border-left: 12px solid transparent;
 	border-right: 12px solid transparent;
-	border-top: 12px solid #c44747;
+	border-top: 12px solid #499DD0;
 	margin:0 auto;
 }
 
 .button.blog {
-	color:#c44747;
-	border-color:#c44747;
+	color:#499DD0;
+	border-color:#499DD0;
 	padding:8px 20px 8px 20px;
 }
 
 .button.blog:hover {
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
 }
 
@@ -1007,7 +1034,7 @@ header a { font-family:Ubuntu Bold; }
 	font-size:12px;
 	float:left; 
 	padding:3px 7px 3px 7px; 
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
 	border-radius:3px;
 	margin-right:8px;
@@ -1029,7 +1056,7 @@ header a { font-family:Ubuntu Bold; }
 
 .blogCreative { padding:20px 0px 80px 0px; }
 .blogCreative h4 a { font-size:28px; color:white; }
-.blogCreative h4 a:hover { color:#c44747; }
+.blogCreative h4 a:hover { color:#499DD0; }
 
 .blogPostCreative { float:left; width:292px; margin-top:30px; }
 .blogPostCreative.wide { width:584px; }
@@ -1037,7 +1064,7 @@ header a { font-family:Ubuntu Bold; }
 .date {
 	margin-top:-65px;
 	padding:10px 0px 10px 0px;
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
 	text-align:center;
 	width:70px;
@@ -1094,7 +1121,7 @@ header a { font-family:Ubuntu Bold; }
 
 .videoPost { margin-bottom:-6px; width:100%; height:200px; }
 .quotePost { 
-	background-color:#c44747; 
+	background-color:#499DD0; 
 	padding:14px 0px 41px 0px; 
 	display:block; 
 	color:white;
@@ -1124,7 +1151,7 @@ header a { font-family:Ubuntu Bold; }
 	color:#a5a5a5;
 	font-size:18px;
 	border-left-style:solid;
-	border-left-color:#c44747;
+	border-left-color:#499DD0;
 }
 
 .comment.reply {
@@ -1136,7 +1163,7 @@ header a { font-family:Ubuntu Bold; }
 	border-width:1px;
 	border-radius:3px;
 	border-color:#cdcdcd;
-	border-left-color:#c44747;
+	border-left-color:#499DD0;
 	border-left-width:4px;
 	padding:20px;
 	float:left;
@@ -1148,7 +1175,7 @@ header a { font-family:Ubuntu Bold; }
 	height: 0; 
 	border-top: 8px solid transparent;
 	border-bottom: 8px solid transparent; 
-	border-right:8px solid #c44747; 
+	border-right:8px solid #499DD0; 
 	float:left;
 	margin-left:-8px;
 	margin-top:40px;
@@ -1158,7 +1185,7 @@ header a { font-family:Ubuntu Bold; }
 
 .commentText h1 {
 	font-size:12px;
-	color:#c44747;
+	color:#499DD0;
 }
 .commentText p { font-size:13px; }
 
@@ -1261,7 +1288,7 @@ header a { font-family:Ubuntu Bold; }
 	color:#a7a7a7; 
 }
 
-.accordianTab .accordianLink:hover { color:#c44747; }
+.accordianTab .accordianLink:hover { color:#499DD0; }
 
 .accordianContent { display:none; padding:15px 20px 0px 20px; }
 
@@ -1286,11 +1313,11 @@ header a { font-family:Ubuntu Bold; }
 
 .error {
 	background-color:#f1d9d9;
-	border-color:#c44747;
-	color:#c44747;
+	border-color:#499DD0;
+	color:#499DD0;
 }
 
-.error h4 { color:#c44747; }
+.error h4 { color:#499DD0; }
 
 .info {
 	background-color:#d9e7f1;
@@ -1313,7 +1340,7 @@ header a { font-family:Ubuntu Bold; }
 .pricingTable { text-align:center; }
 
 .pricingHeader {
-	background-color:#c44747;
+	background-color:#499DD0;
 	padding:11px 11px 1px 11px;
 }
 
@@ -1384,7 +1411,7 @@ header a { font-family:Ubuntu Bold; }
 .row.shopList { margin-top:80px; }
 
 .shopPrice {
-	color:#c44747;
+	color:#499DD0;
 	font-size:21px;
 	margin-top:-7px;
 }
@@ -1408,7 +1435,7 @@ header a { font-family:Ubuntu Bold; }
 .shopImg { max-width:100%; }
 
 .button.smallGrey.sale {
-	background-color:#c44747;
+	background-color:#499DD0;
 	color:white;
 	position:absolute;
 	margin-top:5px;
@@ -1416,7 +1443,7 @@ header a { font-family:Ubuntu Bold; }
 }
 
 .pageList li { display:inline; }
-.pageList li .current { background-color:#c44747; color:white; }
+.pageList li .current { background-color:#499DD0; color:white; }
 
 .shopInput { width:44%; margin-bottom:15px; }
 .button.red.shopForm { width:30%; float:right; }
@@ -1431,7 +1458,7 @@ header a { font-family:Ubuntu Bold; }
 
 .shopReview h1 {
 	font-size:12px;
-	color:#c44747;
+	color:#499DD0;
 }
 
 .reviewFooter {
@@ -1471,7 +1498,7 @@ header a { font-family:Ubuntu Bold; }
 
 .testimonials {
 	padding:90px 0px 85px 0px; 
-	background-color:#c44747;
+	background-color:#499DD0;
 	background: url('../images/subHeaderBg_red.jpg');
 	background-attachment:fixed;
 	background-repeat:no-repeat;
@@ -1761,3 +1788,40 @@ footer h4 a { color:#87969e; margin-bottom:20px; }
 }
 
 
+
+
+
+/* main menu custom css */
+.navbar-brand img {
+	width: 179px;
+    height: 69px;
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+    bottom: 10px;
+}
+.navbar-brand p {
+	padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.brand-img img{
+	width: 349px;
+    height: 204px;
+}
+.link-button{
+	color: #434b4f;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+	
+
+}
+.link-button:hover{ color:#208ccd;}
+.brand-heading{
+	font-size:18px;
+	padding: 0 50px;
+	margin: 12px
+}
