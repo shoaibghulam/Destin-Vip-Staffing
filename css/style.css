@@ -907,7 +907,7 @@ header a { font-family:Ubuntu Bold; }
 
 .promoBox {
 	padding:80px 0px 60px 0px;
-	background-image: linear-gradient(to right top, #949698, #9c9fa1, #a5a8aa, #adb1b3, #b6babc);
+	background-image: linear-gradient(to right top, #3366cc, #3467ce, #3568cf, #366ad1, #376bd3);
 	color:white;
 }
 
@@ -1608,28 +1608,6 @@ footer h4 a { color:#87969e; margin-bottom:20px; }
 	opacity:0.7;
 }
 
-/** FOOTER 2 **/
-#footer2 { text-align:center; }
-
-#footer2 .socialIcons {
-	float:none;
-	margin:40px auto;
-	margin-bottom:0px;
-}
-
-#footer2 .socialIcons li {
-	border-style:solid;
-	border-color:#d0dadf;
-	border-radius:7px;
-	padding-top:5px;
-	padding-bottom:6px;
-	margin-right:17px;
-}
-
-.bottomBar.center p { float:none; }
-.bottomBar.center { text-align:center; }
-
-
 /*====================================================================================*/
  /* 15 HOME BOXED
 /*====================================================================================*/
@@ -1981,4 +1959,128 @@ footer h4 a { color:#87969e; margin-bottom:20px; }
     border-bottom: 1px solid rgb(218 218 218);
     padding-bottom: 7px;
 }
+.job-description{
+	text-align:left;
+}
+.job-title{
+	
+    font-size: 28px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    background: none;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #d2cdcdc4;
+	
+}
+.job-address{
+	font-size: 18px;
+    font-weight: bold;
+}
+.job-info{
+	color:#555;
+	padding: 0;
+    margin: 0;
+    font-size: 14px;
+	
+}
+.job-info span{
+	color:#000;
+	font-weight: bold;
+	
+}
+.job-desc{
+	padding-top:30px;
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    background: none;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #d2cdcdc4;
+	
+}
+.job-data{
+	font-size:20px;
+	color:#000;
+}
+.job-data p{
+	padding-bottom: 12px;
+}
+.job-data ul{
+	padding-left: 21px;
+}
+.job-data ul li{
+	list-style:disc;
+}
+.job-box{
+	padding: 20px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-top-width: 6px;
+    margin-bottom: 24px;
+}
+
+.hmg-jb-apply-button {
+    text-align: left;
+    position: relative;
+    padding-left: 54px;
+}
+.hmg-jb-btn-default, a.hmg-jb-btn-default {
+    color: #000 !important;
+    background-color: #fff;
+    border-color: #c2c2c2;
+}
+.hmg-jb a, .hmg-jb a:hover, .hmg-jb a:focus, .hmg-jb-text-primary {
+    color: #7fd0d7;
+}
+#apply-top .hmg-jb-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.mb-2{
+	margin-bottom:20px;
+}
+.job-social-media a{
+	font-size: 27px;
+    margin: 0px 7px;
+}
+
+
+.job-nav ul{
+	list-style-type:none;
+	z-index: 1;
+	overflow: hidden;
+	float: right;
+	
+}
+.job-nav ul li{
+	float:left;
+}
+.job-nav ul li a{
+	display: inline-block;
+	padding: 10px 13px;
+}
+
+
 /* jobs page end */
+
+/* login page start */
+.login-page{
+	background:#fff;
+	padding: 50px;
+	width:40%;
+	margin:0 auto;
+	border: 1px solid #e4dcdc;
+	box-shadow: -3px 23px 35px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 23px 35px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 23px 35px -12px rgba(0,0,0,0.75);
+}
+.login-bottom{
+	text-align:left;
+}
+.login-bottom a{
+	padding:0 15px;
+}
+/* login page end */
